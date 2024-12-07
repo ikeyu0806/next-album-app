@@ -5,6 +5,6 @@ services:
     volumes:
       - .:/workspace
     ports:
-      - '3456:3000'
-    # command: npm run dev
+      - '3333:3000'
+    command: npm run dev
     tty: true
