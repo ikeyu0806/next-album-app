@@ -1,0 +1,10 @@
+services:
+  next-news-app:
+    build:
+      context: .
+    volumes:
+      - .:/workspace
+    ports:
+      - '3456:3000'
+    # command: npm run dev
+    tty: true
