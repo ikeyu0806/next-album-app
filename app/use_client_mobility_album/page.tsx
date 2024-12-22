@@ -4,6 +4,12 @@ import MobilityshowAlbum from '../../components/mobility_show_album'
 
 export default function UseClientMobilityAlbum() {
   return (
-    <MobilityshowAlbum />
+    <>
+      <MobilityshowAlbum />
+      <MobilityshowAlbum />
+      <MobilityshowAlbum />
+      <MobilityshowAlbum />
+      <MobilityshowAlbum />
+    </>
   )
 }
