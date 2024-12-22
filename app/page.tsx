@@ -1,10 +1,11 @@
 import React from 'react'
-import MobilityshowAlubum from '../components/mobility_show_album'
 
 export default function Home() {
   return (
     <>
-      <MobilityshowAlubum />
+      <a href="/use_server_mobility_album">サーバサイドレンダリングでアルバムを表示</a>
+      <br />
+      <a href="/use_client_mobility_album">クライアントサイドレンダリングでアルバムを表示</a>
     </>
   )
 }
