@@ -1,5 +1,5 @@
 services:
-  next-news-app:
+  next-album-app:
     build:
       context: .
     volumes:

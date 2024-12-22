@@ -1,7 +1,7 @@
 {
-  "name": "next-news-app",
+  "name": "next-album-app",
   "version": "1.0.0",
-  "description": "next news app",
+  "description": "next album app",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
