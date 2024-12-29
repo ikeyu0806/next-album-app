@@ -5,7 +5,9 @@ export default function HeavyComputation() {
     const startHeavyComputation = () => {
         for (let i = 0; i < iterations; i++) {
             const result = Math.sqrt(i) * Math.sin(i)
-            results.push(result)
+            if (i % (iterations / 10) === 0) {
+                results.push(result)
+            }
         }
     }
 
