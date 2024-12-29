@@ -1,4 +1,4 @@
-const iterations = 100000
+const iterations = 10000
 const results = []
 
 export default function HeavyComputation() {
