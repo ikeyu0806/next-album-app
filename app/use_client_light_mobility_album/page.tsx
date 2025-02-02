@@ -6,6 +6,6 @@ export default function UseServerMobilityAlbum() {
   return (
     <>
       <LightMobilityshowAlbum />
-  </>
+    </>
   )
 }
