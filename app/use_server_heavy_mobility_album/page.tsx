@@ -10,6 +10,6 @@ export default async function UseServerMobilityAlbum() {
       <HeavyMobilityshowAlbum />
       <HeavyMobilityshowAlbum />
       <HeavyMobilityshowAlbum />
-  </>
+    </>
   )
 }
