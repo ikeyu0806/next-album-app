@@ -8,11 +8,9 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export default function HttpBenchmark() {
   const [axiosResponse, setAxiosResponse] = useState<string | null>(null)
-  const { data: swrData, mutate } = useSWR(
-    '/api/slow_response',
-    fetcher,
-    { suspense: false },
-  )
+  const { data: swrData, mutate } = useSWR('/api/slow_response', fetcher, {
+    suspense: false,
+  })
 
   const handleAxiosClick = async () => {
     setAxiosResponse(null)
