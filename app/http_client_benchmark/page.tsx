@@ -23,6 +23,8 @@ export default function HttpBenchmark() {
     suspense: false,
     // ページ読み込み時に呼び出さない
     revalidateOnMount: false,
+    // フォーカス時の再検証を無効にする
+    revalidateOnFocus: false,
   })
 
   const handleFetchClick = async () => {
