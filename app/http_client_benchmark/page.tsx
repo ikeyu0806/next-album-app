@@ -21,6 +21,8 @@ export default function HttpBenchmark() {
 
   const { data: swrData, mutate } = useSWR('/api/slow_response', fetcher, {
     suspense: false,
+    // ページ読み込み時に呼び出さない
+    revalidateOnMount: false,
   })
 
   const handleFetchClick = async () => {
