@@ -5,7 +5,7 @@ export async function GET() {
   await new Promise((resolve) => setTimeout(resolve, delay))
 
   return NextResponse.json({
-    message: 'This response was delayed by 3 seconds',
+    message: 'This response was delayed by 10 seconds',
     timestamp: new Date().toISOString(),
   })
 }
